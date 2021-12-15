@@ -91,7 +91,7 @@ def print_dictionary_password(dictionary_file):
                 if(length < 12):
                     length = random.randint(12, 18)
                 else:
-                    print(f"Length: {length}  Pass: {assembled_password}")
+                    # print(f"Length: {length}  Pass: {assembled_password}")
                     length = random.randint(len(assembled_password), 18)
 
                 # Fills the rest of the password with numbers and special characters up to the random length
